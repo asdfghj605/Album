@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href='css/reset.css'>
+    <link rel="stylesheet" href="css/bootstrap-v4.1.1.min.css">
+    <title><%=title %></title>
+
+
+</head>
+<body>
+    <div class="d-flex justify-content-center align-items-center" style="height:100vh;">
+        <div class="card  box border border-secondary" style="width: 20rem; height: 15rem;">
+            <div class="card-body ">
+                    <form>
+                            <div class="form-row">
+                              <div class="col-md-12 mb-2">
+                                <label for="validationServer01" class="mb-0">Account</label> 
+                                <input type="text" class="form-control mt-0" name="email" id="email" placeholder="" required>
+                                <div class="valid-feedback">
+                                  Looks good!
+                                </div>
+                              </div>
+                            </div>  
+
+                            <div class="form-row">
+                             <div class="col-md-12 mb-3">
+                                <label for="validationServer02" class="mb-0">Password</label>
+                                <input type="text" class="form-control" name="passwd" id="passwd" placeholder="" required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex justify-content-end">
+                            <button class="btn btn-primary" type="submit" value="Log In" id="send" >Submit</button>
+                        </div>
+                          </form>
+            </div>
+        </div>
+    </div>
+              
+</body>
+</html>
