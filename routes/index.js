@@ -4,7 +4,7 @@ var firebaseDB = require('../connection/database');
 var firebase = require('../connection/auth');
 var firebaseAuth = firebase.auth();
 router.get('/', function (req, res) {
-    res.render('login', { title: '登入' });
+    res.render('index', { title: '登入' });
 })
 router.post('/', function (req, res) {
     var email = req.body.email;

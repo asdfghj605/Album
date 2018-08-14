@@ -24,12 +24,12 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // routes
 var routes = require('./routes/index');
-var login = require('./routes/login');
+var albums = require('./routes/albums');
 var messageBoard = require('./routes/messageBoard');
 var signup = require('./routes/signup');
 var user = require('./routes/user');
 app.use('/', routes);
-app.use('/login', login);
+app.use('/albums', albums);
 app.use('/signup', signup);
 app.use('/user', user);
 app.use('/messageBoard', messageBoard);

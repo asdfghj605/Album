@@ -19,6 +19,7 @@
     "firebase": "^4.11.0",
     "firebase-admin": "^5.10.0",
     "morgan": "^1.6.1",
+    "npm": "^6.3.0",
     "path": "^0.12.7",
     "serve-favicon": "^2.3.2"
   }
